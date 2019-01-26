@@ -1,0 +1,182 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+.holder {
+  margin: 0 auto;
+  max-width: 1010px;
+  width: 100%;
+}
+.align-top,
+.align-middle,
+.align-bottom {
+  display: inline-block;
+  float: none;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.align-top {
+  vertical-align: top;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.align-bottom {
+  vertical-align: bottom;
+}
+.table-layout {
+  display: table;
+  width: 100%;
+}
+.table-cell-layout {
+  display: table-cell;
+}
+/* Outer wrapper */
+.outer-wrapper {
+  margin-top: 75px;
+  position: relative;
+}
+/* Block */
+.block {
+  padding: 65px 0;
+}
+.block .header {
+  margin-bottom: 35px;
+}
+.block .header .title {
+  margin-top: 0;
+  text-align: center;
+}
+.contact  .holder {
+  max-width: 680px;
+}
+.contact .contact-info {
+  margin-bottom: 35px;
+}
+.contact .contact-form {
+  min-height: 150px;
+/* Chrome/Opera/Safari */
+/* Firefox 19+ */
+/* IE 10+ */
+/* Firefox 18- */
+}
+.contact .contact-form ::-webkit-input-placeholder {
+  color: #999;
+}
+.contact .contact-form ::-moz-placeholder {
+  color: #999;
+}
+.contact .contact-form :-ms-input-placeholder {
+  color: #999;
+}
+.contact .contact-form :-moz-placeholder {
+  color: #999;
+}
+.contact .contact-form input[type=text],
+.contact .contact-form textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #dcdcdc;
+  border-radius: 0;
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+.contact .contact-form textarea {
+  height: 125px;
+  resize: none;
+}
+.contact .contact-form input[type=submit] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #dcdcdc;
+  border: none;
+  border-radius: 0;
+  color: #666;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  max-width: 180px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  color: #9a9a9a;
+  font-size: 11px;
+  padding: 15px 0;
+}
+.footer .goplek-logo {
+  display: block;
+  margin-left: auto;
+  width: 50px;
+}
+
+.navigation {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+          box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+  height: 70px;
+  padding: 10px 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+/* Navigation - Logo */
+/* Navigation - List */
+/* Navigation - Toggle Button */
+}
+.navigation .logo {
+  display: block;
+  float: left;
+  width: 85px;
+}
+.navigation .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.navigation .list li {
+  display: inline;
+  margin-left: 25px;
+}
+.navigation .list a {
+  color: #666;
+  line-height: 46px;
+}
+.navigation .toggle-btn {
+  background-color: transparent;
+  border: none;
+  float: right;
+  outline: none;
+  padding: 10px;
+  width: 50px;
+}
+.navigation .toggle-btn .bar {
+  background-color: #666;
+  display: block;
+  height: 3px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.navigation .toggle-btn .bar:last-child {
+  margin-bottom: 0;
+}

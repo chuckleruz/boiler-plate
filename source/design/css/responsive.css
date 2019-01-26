@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+    .navigation .list-wrapper {
+        background-color: #fff;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        padding: 50px 20px 20px;
+        position: fixed;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        -webkit-transition: opacity 375ms, -webkit-transform 375ms;
+        transition: opacity 375ms, -webkit-transform 375ms;
+        transition: opacity 375ms, transform 375ms;
+        transition: opacity 375ms, transform 375ms, -webkit-transform 375ms;
+        top: 0;
+        width: 100%;
+    }
+    .navigation .list-wrapper.list-collapsed {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .navigation .list-wrapper .close-list-btn {
+        background: transparent;
+        border: none;
+        color: #666;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        right: 10px;
+        top: 10px;
+        width: 30px;
+    }
+    .navigation .list li {
+        display: block;
+    }
+    .navigation .list a {
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
