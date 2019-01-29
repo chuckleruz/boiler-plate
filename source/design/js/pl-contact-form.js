@@ -14,16 +14,7 @@ var ContactForm = (function(w) {
     ContactForm.inputs = [
         'input[name=Nombre]',
         'input[name=Telefono]',
-        'input[name=Email]',
-        'input[name=Ciudad]',
-        'input[name=Estado]',
-        'input[name=Modelo]',
-        'input[name=Marca]',
-        'input[name=Servicio]',
-        'input[name=Marca]',
-        'input[name=Material]',
-        'input[name=Empresa]',
-        'textarea[name=Mensaje]'
+        'input[name=Email]'
     ];
 
 
@@ -86,7 +77,7 @@ var ContactForm = (function(w) {
                 data       : data,
                 processData: false,
                 type       : 'POST',
-                url        : 'https://levdata.com.mx/mail/sendmail.php',
+                url        : 'sendmail.php',
 
                 beforeSend: handlers.beforeSend,
                 error     : handlers.error,

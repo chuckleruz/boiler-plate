@@ -159,7 +159,7 @@ gulp.task('favicon', () => {
         developerURL: "http://goplek.com/",
         background: "transparent",
         path: "html/favicons",
-        url: "http://goplek-boilerplate.com/",
+        url: "http://goplek-versant180.com/",
         display: "standalone",
         orientation: "portrait",
         version: 1.0,
